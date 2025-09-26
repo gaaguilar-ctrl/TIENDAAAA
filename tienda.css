@@ -1,0 +1,20 @@
+.producto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  gap: 20px; /* espacio para cada imagen o tarjeta */
+  margin-top: 20px;
+}
+
+.card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 200px;
+  height: 400px;  
+  object-fit: cover;
+  }

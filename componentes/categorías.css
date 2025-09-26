@@ -1,0 +1,14 @@
+.categorías {
+  max-width: 900px;   
+  margin: auto;      
+  padding: 20px; 
+}     
+
+.categorías p {
+  text-align: justify; 
+}
+
+.categorías h2 {
+  text-align: left; 
+  margin-bottom: 20px; 
+  }
